@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+    <line>
+      <![CDATA[Trying to click on: [[ChromeDriver: chrome on WINDOWS (4d0618170fcd2b9f86cec12ab1de9565)] -> class name: ico-login]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on: [[ChromeDriver: chrome on WINDOWS (4d0618170fcd2b9f86cec12ab1de9565)] -> class name: ico-login]]]>
+    </line>
+    <line>
+      <![CDATA[Trying to click on: [[ChromeDriver: chrome on WINDOWS (4d0618170fcd2b9f86cec12ab1de9565)] -> xpath: //input[contains(@class,'login-button')]]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on: [[ChromeDriver: chrome on WINDOWS (4d0618170fcd2b9f86cec12ab1de9565)] -> xpath: //input[contains(@class,'login-button')]]]]>
+    </line>
+    <line>
+      <![CDATA[Trying to click on: [[ChromeDriver: chrome on WINDOWS (4d0618170fcd2b9f86cec12ab1de9565)] -> link text: Apparel & Shoes]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on: [[ChromeDriver: chrome on WINDOWS (4d0618170fcd2b9f86cec12ab1de9565)] -> link text: Apparel & Shoes]]]>
+    </line>
+    <line>
+      <![CDATA[Trying to click on: [[ChromeDriver: chrome on WINDOWS (4919097c48adfe7cac6cf82fcb7a960f)] -> class name: ico-login]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on: [[ChromeDriver: chrome on WINDOWS (4919097c48adfe7cac6cf82fcb7a960f)] -> class name: ico-login]]]>
+    </line>
+    <line>
+      <![CDATA[Trying to click on: [[ChromeDriver: chrome on WINDOWS (4919097c48adfe7cac6cf82fcb7a960f)] -> xpath: //input[contains(@class,'login-button')]]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on: [[ChromeDriver: chrome on WINDOWS (4919097c48adfe7cac6cf82fcb7a960f)] -> xpath: //input[contains(@class,'login-button')]]]]>
+    </line>
+    <line>
+      <![CDATA[Trying to click on: [[ChromeDriver: chrome on WINDOWS (80e3220f52b52af46673be0fe7affe80)] -> class name: ico-login]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on: [[ChromeDriver: chrome on WINDOWS (80e3220f52b52af46673be0fe7affe80)] -> class name: ico-login]]]>
+    </line>
+    <line>
+      <![CDATA[Trying to click on: [[ChromeDriver: chrome on WINDOWS (80e3220f52b52af46673be0fe7affe80)] -> xpath: //input[contains(@class,'login-button')]]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on: [[ChromeDriver: chrome on WINDOWS (80e3220f52b52af46673be0fe7affe80)] -> xpath: //input[contains(@class,'login-button')]]]]>
+    </line>
+    <line>
+      <![CDATA[Trying to click on: [[ChromeDriver: chrome on WINDOWS (80e3220f52b52af46673be0fe7affe80)] -> link text: Apparel & Shoes]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on: [[ChromeDriver: chrome on WINDOWS (80e3220f52b52af46673be0fe7affe80)] -> link text: Apparel & Shoes]]]>
+    </line>
+    <line>
+      <![CDATA[Trying to click on: [[[[ChromeDriver: chrome on WINDOWS (80e3220f52b52af46673be0fe7affe80)] -> id: products-orderby]] -> xpath: .//option[normalize-space(.) = "Name: A to Z"]]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on: [[[[ChromeDriver: chrome on WINDOWS (80e3220f52b52af46673be0fe7affe80)] -> id: products-orderby]] -> xpath: .//option[normalize-space(.) = "Name: A to Z"]]]]>
+    </line>
+    <line>
+      <![CDATA[Trying to click on: [[ChromeDriver: chrome on WINDOWS (d5f5b9a6643239850d0688d05a00c03f)] -> class name: ico-login]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on: [[ChromeDriver: chrome on WINDOWS (d5f5b9a6643239850d0688d05a00c03f)] -> class name: ico-login]]]>
+    </line>
+    <line>
+      <![CDATA[Trying to click on: [[ChromeDriver: chrome on WINDOWS (d5f5b9a6643239850d0688d05a00c03f)] -> xpath: //input[contains(@class,'login-button')]]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on: [[ChromeDriver: chrome on WINDOWS (d5f5b9a6643239850d0688d05a00c03f)] -> xpath: //input[contains(@class,'login-button')]]]]>
+    </line>
+    <line>
+      <![CDATA[Trying to click on: [[ChromeDriver: chrome on WINDOWS (d5f5b9a6643239850d0688d05a00c03f)] -> link text: Apparel & Shoes]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on: [[ChromeDriver: chrome on WINDOWS (d5f5b9a6643239850d0688d05a00c03f)] -> link text: Apparel & Shoes]]]>
+    </line>
+    <line>
+      <![CDATA[Trying to click on: [[[[ChromeDriver: chrome on WINDOWS (d5f5b9a6643239850d0688d05a00c03f)] -> id: products-orderby]] -> xpath: .//option[normalize-space(.) = "Name: Z to A"]]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on: [[[[ChromeDriver: chrome on WINDOWS (d5f5b9a6643239850d0688d05a00c03f)] -> id: products-orderby]] -> xpath: .//option[normalize-space(.) = "Name: Z to A"]]]]>
+    </line>
+    <line>
+      <![CDATA[Trying to click on: [[ChromeDriver: chrome on WINDOWS (6313d0c3ba5f844dd3196cbfa7e459f5)] -> class name: ico-login]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on: [[ChromeDriver: chrome on WINDOWS (6313d0c3ba5f844dd3196cbfa7e459f5)] -> class name: ico-login]]]>
+    </line>
+    <line>
+      <![CDATA[Trying to click on: [[ChromeDriver: chrome on WINDOWS (6313d0c3ba5f844dd3196cbfa7e459f5)] -> xpath: //input[contains(@class,'login-button')]]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on: [[ChromeDriver: chrome on WINDOWS (6313d0c3ba5f844dd3196cbfa7e459f5)] -> xpath: //input[contains(@class,'login-button')]]]]>
+    </line>
+    <line>
+      <![CDATA[Trying to click on: [[ChromeDriver: chrome on WINDOWS (6313d0c3ba5f844dd3196cbfa7e459f5)] -> link text: Apparel & Shoes]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on: [[ChromeDriver: chrome on WINDOWS (6313d0c3ba5f844dd3196cbfa7e459f5)] -> link text: Apparel & Shoes]]]>
+    </line>
+    <line>
+      <![CDATA[Trying to click on: [[[[ChromeDriver: chrome on WINDOWS (6313d0c3ba5f844dd3196cbfa7e459f5)] -> id: products-orderby]] -> xpath: .//option[normalize-space(.) = "Price: Low to High"]]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on: [[[[ChromeDriver: chrome on WINDOWS (6313d0c3ba5f844dd3196cbfa7e459f5)] -> id: products-orderby]] -> xpath: .//option[normalize-space(.) = "Price: Low to High"]]]]>
+    </line>
+    <line>
+      <![CDATA[Trying to click on: [[ChromeDriver: chrome on WINDOWS (551f153685a26e9e594aaba51da99a87)] -> class name: ico-login]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on: [[ChromeDriver: chrome on WINDOWS (551f153685a26e9e594aaba51da99a87)] -> class name: ico-login]]]>
+    </line>
+    <line>
+      <![CDATA[Trying to click on: [[ChromeDriver: chrome on WINDOWS (551f153685a26e9e594aaba51da99a87)] -> xpath: //input[contains(@class,'login-button')]]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on: [[ChromeDriver: chrome on WINDOWS (551f153685a26e9e594aaba51da99a87)] -> xpath: //input[contains(@class,'login-button')]]]]>
+    </line>
+    <line>
+      <![CDATA[Trying to click on: [[ChromeDriver: chrome on WINDOWS (551f153685a26e9e594aaba51da99a87)] -> link text: Apparel & Shoes]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on: [[ChromeDriver: chrome on WINDOWS (551f153685a26e9e594aaba51da99a87)] -> link text: Apparel & Shoes]]]>
+    </line>
+    <line>
+      <![CDATA[Trying to click on: [[[[ChromeDriver: chrome on WINDOWS (551f153685a26e9e594aaba51da99a87)] -> id: products-orderby]] -> xpath: .//option[normalize-space(.) = "Price: High to Low"]]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on: [[[[ChromeDriver: chrome on WINDOWS (551f153685a26e9e594aaba51da99a87)] -> id: products-orderby]] -> xpath: .//option[normalize-space(.) = "Price: High to Low"]]]]>
+    </line>
+    <line>
+      <![CDATA[Trying to click on: [[ChromeDriver: chrome on WINDOWS (70a7fe050de4bf0b5c0c4d988e174869)] -> class name: ico-login]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on: [[ChromeDriver: chrome on WINDOWS (70a7fe050de4bf0b5c0c4d988e174869)] -> class name: ico-login]]]>
+    </line>
+    <line>
+      <![CDATA[Trying to click on: [[ChromeDriver: chrome on WINDOWS (70a7fe050de4bf0b5c0c4d988e174869)] -> xpath: //input[contains(@class,'login-button')]]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on: [[ChromeDriver: chrome on WINDOWS (70a7fe050de4bf0b5c0c4d988e174869)] -> xpath: //input[contains(@class,'login-button')]]]]>
+    </line>
+    <line>
+      <![CDATA[Trying to click on: [[ChromeDriver: chrome on WINDOWS (70a7fe050de4bf0b5c0c4d988e174869)] -> link text: Apparel & Shoes]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on: [[ChromeDriver: chrome on WINDOWS (70a7fe050de4bf0b5c0c4d988e174869)] -> link text: Apparel & Shoes]]]>
+    </line>
+    <line>
+      <![CDATA[Trying to click on: [[ChromeDriver: chrome on WINDOWS (70a7fe050de4bf0b5c0c4d988e174869)] -> link text: Blue Jeans]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on: [[ChromeDriver: chrome on WINDOWS (70a7fe050de4bf0b5c0c4d988e174869)] -> link text: Blue Jeans]]]>
+    </line>
+    <line>
+      <![CDATA[Trying to click on: [[ChromeDriver: chrome on WINDOWS (70a7fe050de4bf0b5c0c4d988e174869)] -> id: add-to-cart-button-36]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on: [[ChromeDriver: chrome on WINDOWS (70a7fe050de4bf0b5c0c4d988e174869)] -> id: add-to-cart-button-36]]]>
+    </line>
+  </reporter-output>
+  <suite name="Test Automation Suite" duration-ms="118966" started-at="2020-04-27T11:02:30Z" finished-at="2020-04-27T11:04:29Z">
+    <groups>
+    </groups>
+    <test name="WebShopTest" duration-ms="118966" started-at="2020-04-27T11:02:30Z" finished-at="2020-04-27T11:04:29Z">
+      <class name="org.seleniumjava.tests.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.seleniumjava.tests.LoginTest@402f80f5]" name="setUp" is-config="true" duration-ms="9833" started-at="2020-04-27T11:02:30Z" finished-at="2020-04-27T11:02:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:1, instance:org.seleniumjava.tests.LoginTest@402f80f5]" name="verifyLoginPageTitleTest" duration-ms="2063" started-at="2020-04-27T11:02:40Z" description="Verify the login page title" finished-at="2020-04-27T11:02:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.seleniumjava.tests.LoginTest@402f80f5]" name="tearDown" is-config="true" duration-ms="1057" started-at="2020-04-27T11:02:42Z" finished-at="2020-04-27T11:02:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.seleniumjava.tests.LoginTest@402f80f5]" name="setUp" is-config="true" duration-ms="9188" started-at="2020-04-27T11:03:01Z" finished-at="2020-04-27T11:03:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:2, instance:org.seleniumjava.tests.LoginTest@402f80f5]" name="loginTest" duration-ms="1250" started-at="2020-04-27T11:03:10Z" description="Verify the login test" finished-at="2020-04-27T11:03:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Trying to click on: [[ChromeDriver: chrome on WINDOWS (4919097c48adfe7cac6cf82fcb7a960f)] -> class name: ico-login]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on: [[ChromeDriver: chrome on WINDOWS (4919097c48adfe7cac6cf82fcb7a960f)] -> class name: ico-login]]]>
+            </line>
+            <line>
+              <![CDATA[Trying to click on: [[ChromeDriver: chrome on WINDOWS (4919097c48adfe7cac6cf82fcb7a960f)] -> xpath: //input[contains(@class,'login-button')]]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on: [[ChromeDriver: chrome on WINDOWS (4919097c48adfe7cac6cf82fcb7a960f)] -> xpath: //input[contains(@class,'login-button')]]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.seleniumjava.tests.LoginTest@402f80f5]" name="tearDown" is-config="true" duration-ms="623" started-at="2020-04-27T11:03:11Z" finished-at="2020-04-27T11:03:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.seleniumjava.tests.LoginTest -->
+      <class name="org.seleniumjava.tests.ProductPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.seleniumjava.tests.ProductPageTest@5bbc9f97]" name="setUp" is-config="true" duration-ms="12434" started-at="2020-04-27T11:02:43Z" finished-at="2020-04-27T11:02:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Trying to click on: [[ChromeDriver: chrome on WINDOWS (4d0618170fcd2b9f86cec12ab1de9565)] -> class name: ico-login]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on: [[ChromeDriver: chrome on WINDOWS (4d0618170fcd2b9f86cec12ab1de9565)] -> class name: ico-login]]]>
+            </line>
+            <line>
+              <![CDATA[Trying to click on: [[ChromeDriver: chrome on WINDOWS (4d0618170fcd2b9f86cec12ab1de9565)] -> xpath: //input[contains(@class,'login-button')]]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on: [[ChromeDriver: chrome on WINDOWS (4d0618170fcd2b9f86cec12ab1de9565)] -> xpath: //input[contains(@class,'login-button')]]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyProducPageTitle()[pri:1, instance:org.seleniumjava.tests.ProductPageTest@5bbc9f97]" name="verifyProducPageTitle" duration-ms="2451" started-at="2020-04-27T11:02:56Z" finished-at="2020-04-27T11:02:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Trying to click on: [[ChromeDriver: chrome on WINDOWS (4d0618170fcd2b9f86cec12ab1de9565)] -> link text: Apparel & Shoes]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on: [[ChromeDriver: chrome on WINDOWS (4d0618170fcd2b9f86cec12ab1de9565)] -> link text: Apparel & Shoes]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProducPageTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.seleniumjava.tests.ProductPageTest@5bbc9f97]" name="tearDown" is-config="true" duration-ms="2618" started-at="2020-04-27T11:02:58Z" finished-at="2020-04-27T11:03:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.seleniumjava.tests.ProductPageTest@5bbc9f97]" name="setUp" is-config="true" duration-ms="10400" started-at="2020-04-27T11:03:12Z" finished-at="2020-04-27T11:03:23Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Trying to click on: [[ChromeDriver: chrome on WINDOWS (80e3220f52b52af46673be0fe7affe80)] -> class name: ico-login]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on: [[ChromeDriver: chrome on WINDOWS (80e3220f52b52af46673be0fe7affe80)] -> class name: ico-login]]]>
+            </line>
+            <line>
+              <![CDATA[Trying to click on: [[ChromeDriver: chrome on WINDOWS (80e3220f52b52af46673be0fe7affe80)] -> xpath: //input[contains(@class,'login-button')]]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on: [[ChromeDriver: chrome on WINDOWS (80e3220f52b52af46673be0fe7affe80)] -> xpath: //input[contains(@class,'login-button')]]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="sortByFeature(java.lang.String)[pri:2, instance:org.seleniumjava.tests.ProductPageTest@5bbc9f97]" name="sortByFeature" duration-ms="931" started-at="2020-04-27T11:03:23Z" data-provider="getSortByData" finished-at="2020-04-27T11:03:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Name: A to Z]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Trying to click on: [[ChromeDriver: chrome on WINDOWS (80e3220f52b52af46673be0fe7affe80)] -> link text: Apparel & Shoes]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on: [[ChromeDriver: chrome on WINDOWS (80e3220f52b52af46673be0fe7affe80)] -> link text: Apparel & Shoes]]]>
+            </line>
+            <line>
+              <![CDATA[Trying to click on: [[[[ChromeDriver: chrome on WINDOWS (80e3220f52b52af46673be0fe7affe80)] -> id: products-orderby]] -> xpath: .//option[normalize-space(.) = "Name: A to Z"]]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on: [[[[ChromeDriver: chrome on WINDOWS (80e3220f52b52af46673be0fe7affe80)] -> id: products-orderby]] -> xpath: .//option[normalize-space(.) = "Name: A to Z"]]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sortByFeature -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.seleniumjava.tests.ProductPageTest@5bbc9f97]" name="tearDown" is-config="true" duration-ms="2630" started-at="2020-04-27T11:03:24Z" finished-at="2020-04-27T11:03:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.seleniumjava.tests.ProductPageTest@5bbc9f97]" name="setUp" is-config="true" duration-ms="10494" started-at="2020-04-27T11:03:26Z" finished-at="2020-04-27T11:03:37Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Trying to click on: [[ChromeDriver: chrome on WINDOWS (d5f5b9a6643239850d0688d05a00c03f)] -> class name: ico-login]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on: [[ChromeDriver: chrome on WINDOWS (d5f5b9a6643239850d0688d05a00c03f)] -> class name: ico-login]]]>
+            </line>
+            <line>
+              <![CDATA[Trying to click on: [[ChromeDriver: chrome on WINDOWS (d5f5b9a6643239850d0688d05a00c03f)] -> xpath: //input[contains(@class,'login-button')]]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on: [[ChromeDriver: chrome on WINDOWS (d5f5b9a6643239850d0688d05a00c03f)] -> xpath: //input[contains(@class,'login-button')]]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="sortByFeature(java.lang.String)[pri:2, instance:org.seleniumjava.tests.ProductPageTest@5bbc9f97]" name="sortByFeature" duration-ms="893" started-at="2020-04-27T11:03:37Z" data-provider="getSortByData" finished-at="2020-04-27T11:03:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Name: Z to A]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Trying to click on: [[ChromeDriver: chrome on WINDOWS (d5f5b9a6643239850d0688d05a00c03f)] -> link text: Apparel & Shoes]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on: [[ChromeDriver: chrome on WINDOWS (d5f5b9a6643239850d0688d05a00c03f)] -> link text: Apparel & Shoes]]]>
+            </line>
+            <line>
+              <![CDATA[Trying to click on: [[[[ChromeDriver: chrome on WINDOWS (d5f5b9a6643239850d0688d05a00c03f)] -> id: products-orderby]] -> xpath: .//option[normalize-space(.) = "Name: Z to A"]]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on: [[[[ChromeDriver: chrome on WINDOWS (d5f5b9a6643239850d0688d05a00c03f)] -> id: products-orderby]] -> xpath: .//option[normalize-space(.) = "Name: Z to A"]]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sortByFeature -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.seleniumjava.tests.ProductPageTest@5bbc9f97]" name="tearDown" is-config="true" duration-ms="2614" started-at="2020-04-27T11:03:38Z" finished-at="2020-04-27T11:03:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.seleniumjava.tests.ProductPageTest@5bbc9f97]" name="setUp" is-config="true" duration-ms="10487" started-at="2020-04-27T11:03:40Z" finished-at="2020-04-27T11:03:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Trying to click on: [[ChromeDriver: chrome on WINDOWS (6313d0c3ba5f844dd3196cbfa7e459f5)] -> class name: ico-login]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on: [[ChromeDriver: chrome on WINDOWS (6313d0c3ba5f844dd3196cbfa7e459f5)] -> class name: ico-login]]]>
+            </line>
+            <line>
+              <![CDATA[Trying to click on: [[ChromeDriver: chrome on WINDOWS (6313d0c3ba5f844dd3196cbfa7e459f5)] -> xpath: //input[contains(@class,'login-button')]]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on: [[ChromeDriver: chrome on WINDOWS (6313d0c3ba5f844dd3196cbfa7e459f5)] -> xpath: //input[contains(@class,'login-button')]]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="sortByFeature(java.lang.String)[pri:2, instance:org.seleniumjava.tests.ProductPageTest@5bbc9f97]" name="sortByFeature" duration-ms="852" started-at="2020-04-27T11:03:51Z" data-provider="getSortByData" finished-at="2020-04-27T11:03:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Price: Low to High]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Trying to click on: [[ChromeDriver: chrome on WINDOWS (6313d0c3ba5f844dd3196cbfa7e459f5)] -> link text: Apparel & Shoes]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on: [[ChromeDriver: chrome on WINDOWS (6313d0c3ba5f844dd3196cbfa7e459f5)] -> link text: Apparel & Shoes]]]>
+            </line>
+            <line>
+              <![CDATA[Trying to click on: [[[[ChromeDriver: chrome on WINDOWS (6313d0c3ba5f844dd3196cbfa7e459f5)] -> id: products-orderby]] -> xpath: .//option[normalize-space(.) = "Price: Low to High"]]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on: [[[[ChromeDriver: chrome on WINDOWS (6313d0c3ba5f844dd3196cbfa7e459f5)] -> id: products-orderby]] -> xpath: .//option[normalize-space(.) = "Price: Low to High"]]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sortByFeature -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.seleniumjava.tests.ProductPageTest@5bbc9f97]" name="tearDown" is-config="true" duration-ms="3093" started-at="2020-04-27T11:03:52Z" finished-at="2020-04-27T11:03:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.seleniumjava.tests.ProductPageTest@5bbc9f97]" name="setUp" is-config="true" duration-ms="10374" started-at="2020-04-27T11:03:55Z" finished-at="2020-04-27T11:04:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Trying to click on: [[ChromeDriver: chrome on WINDOWS (551f153685a26e9e594aaba51da99a87)] -> class name: ico-login]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on: [[ChromeDriver: chrome on WINDOWS (551f153685a26e9e594aaba51da99a87)] -> class name: ico-login]]]>
+            </line>
+            <line>
+              <![CDATA[Trying to click on: [[ChromeDriver: chrome on WINDOWS (551f153685a26e9e594aaba51da99a87)] -> xpath: //input[contains(@class,'login-button')]]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on: [[ChromeDriver: chrome on WINDOWS (551f153685a26e9e594aaba51da99a87)] -> xpath: //input[contains(@class,'login-button')]]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="sortByFeature(java.lang.String)[pri:2, instance:org.seleniumjava.tests.ProductPageTest@5bbc9f97]" name="sortByFeature" duration-ms="905" started-at="2020-04-27T11:04:05Z" data-provider="getSortByData" finished-at="2020-04-27T11:04:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Price: High to Low]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Trying to click on: [[ChromeDriver: chrome on WINDOWS (551f153685a26e9e594aaba51da99a87)] -> link text: Apparel & Shoes]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on: [[ChromeDriver: chrome on WINDOWS (551f153685a26e9e594aaba51da99a87)] -> link text: Apparel & Shoes]]]>
+            </line>
+            <line>
+              <![CDATA[Trying to click on: [[[[ChromeDriver: chrome on WINDOWS (551f153685a26e9e594aaba51da99a87)] -> id: products-orderby]] -> xpath: .//option[normalize-space(.) = "Price: High to Low"]]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on: [[[[ChromeDriver: chrome on WINDOWS (551f153685a26e9e594aaba51da99a87)] -> id: products-orderby]] -> xpath: .//option[normalize-space(.) = "Price: High to Low"]]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sortByFeature -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.seleniumjava.tests.ProductPageTest@5bbc9f97]" name="tearDown" is-config="true" duration-ms="2609" started-at="2020-04-27T11:04:06Z" finished-at="2020-04-27T11:04:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.seleniumjava.tests.ProductPageTest@5bbc9f97]" name="setUp" is-config="true" duration-ms="10438" started-at="2020-04-27T11:04:09Z" finished-at="2020-04-27T11:04:19Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Trying to click on: [[ChromeDriver: chrome on WINDOWS (70a7fe050de4bf0b5c0c4d988e174869)] -> class name: ico-login]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on: [[ChromeDriver: chrome on WINDOWS (70a7fe050de4bf0b5c0c4d988e174869)] -> class name: ico-login]]]>
+            </line>
+            <line>
+              <![CDATA[Trying to click on: [[ChromeDriver: chrome on WINDOWS (70a7fe050de4bf0b5c0c4d988e174869)] -> xpath: //input[contains(@class,'login-button')]]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on: [[ChromeDriver: chrome on WINDOWS (70a7fe050de4bf0b5c0c4d988e174869)] -> xpath: //input[contains(@class,'login-button')]]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="selectSubProductAddToCart()[pri:3, instance:org.seleniumjava.tests.ProductPageTest@5bbc9f97]" name="selectSubProductAddToCart" duration-ms="7220" started-at="2020-04-27T11:04:19Z" finished-at="2020-04-27T11:04:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Trying to click on: [[ChromeDriver: chrome on WINDOWS (70a7fe050de4bf0b5c0c4d988e174869)] -> link text: Apparel & Shoes]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on: [[ChromeDriver: chrome on WINDOWS (70a7fe050de4bf0b5c0c4d988e174869)] -> link text: Apparel & Shoes]]]>
+            </line>
+            <line>
+              <![CDATA[Trying to click on: [[ChromeDriver: chrome on WINDOWS (70a7fe050de4bf0b5c0c4d988e174869)] -> link text: Blue Jeans]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on: [[ChromeDriver: chrome on WINDOWS (70a7fe050de4bf0b5c0c4d988e174869)] -> link text: Blue Jeans]]]>
+            </line>
+            <line>
+              <![CDATA[Trying to click on: [[ChromeDriver: chrome on WINDOWS (70a7fe050de4bf0b5c0c4d988e174869)] -> id: add-to-cart-button-36]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on: [[ChromeDriver: chrome on WINDOWS (70a7fe050de4bf0b5c0c4d988e174869)] -> id: add-to-cart-button-36]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectSubProductAddToCart -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.seleniumjava.tests.ProductPageTest@5bbc9f97]" name="tearDown" is-config="true" duration-ms="2616" started-at="2020-04-27T11:04:26Z" finished-at="2020-04-27T11:04:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.seleniumjava.tests.ProductPageTest -->
+    </test> <!-- WebShopTest -->
+  </suite> <!-- Test Automation Suite -->
+</testng-results>

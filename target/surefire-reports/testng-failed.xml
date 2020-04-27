@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Test Automation Suite]" parallel="methods">
+  <test thread-count="3" verbose="0" name="WebShopTest(failed)" parallel="methods">
+    <classes>
+      <class name="org.seleniumjava.tests.ProductPageTest">
+        <methods>
+          <include name="selectSubProductAddToCart"/>
+          <include name="verifyProducPageTitle"/>
+          <include name="sortByFeature"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- org.seleniumjava.tests.ProductPageTest -->
+    </classes>
+  </test> <!-- WebShopTest(failed) -->
+</suite> <!-- Failed suite [Test Automation Suite] -->
