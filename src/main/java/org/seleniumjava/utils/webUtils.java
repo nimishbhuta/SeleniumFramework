@@ -9,6 +9,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.seleniumjava.base.TestBase;
+import org.testng.ITestContext;
 import org.apache.commons.io.FileUtils;
 
 public class webUtils extends TestBase {
@@ -21,9 +22,22 @@ public class webUtils extends TestBase {
 		
 		webElement.clear();
 		webElement.sendKeys(textValue);
+		
 	}
 
+	public String getTBoxValue(WebElement webElement){
+		
+		return webElement.getAttribute("value");
+		
+	}
 
+	public String getTextValue(WebElement webElement){
+		
+		return webElement.getText();
+		
+	}
+
+	
 	public void selectdropDownBox(WebElement webElement,String methodName,String textValue){
 		Select oSelect=new Select(webElement);
 		
@@ -52,5 +66,13 @@ public class webUtils extends TestBase {
 		
 	}
 	
+	
+	
+	public int getCurrentIteration(ITestContext testContext) {
+		int currentCount = testContext.getAllTestMethods()[0].getCurrentInvocationCount();
+		System.out.println("Executing count: " + currentCount);
+		return  currentCount;
+		
+	}
 	
 }

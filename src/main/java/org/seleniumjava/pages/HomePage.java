@@ -11,8 +11,7 @@ public class HomePage extends TestBase {
 	
 	
 	
-	@FindBy(className="ico-login")
-    public WebElement loginLink;
+	
 	
 
 public HomePage(){

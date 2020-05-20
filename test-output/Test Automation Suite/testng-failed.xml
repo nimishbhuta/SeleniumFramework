@@ -1,24 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Test Automation Suite]" parallel="methods">
-  <test name="WebShopTest(failed)" parallel="methods">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test Automation Suite]" parallel="none">
+  <listeners>
+    <listener class-name="org.seleniumjava.utils.TestNGListener"/>
+  </listeners>
+  <test name="WebShopTest(failed)" parallel="none">
     <classes>
-      <class name="org.seleniumjava.tests.LoginTest">
+      <class name="org.seleniumjava.testscenarios.TestRunner">
         <methods>
-          <include name="verifyLoginPageTitleTest"/>
-          <include name="setUp"/>
-          <include name="loginTest"/>
-          <include name="tearDown"/>
+          <include name="main"/>
         </methods>
-      </class> <!-- org.seleniumjava.tests.LoginTest -->
-      <class name="org.seleniumjava.tests.ProductPageTest">
-        <methods>
-          <include name="selectSubProductAddToCart"/>
-          <include name="verifyProducPageTitle"/>
-          <include name="sortByFeature"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- org.seleniumjava.tests.ProductPageTest -->
+      </class> <!-- org.seleniumjava.testscenarios.TestRunner -->
     </classes>
   </test> <!-- WebShopTest(failed) -->
 </suite> <!-- Failed suite [Test Automation Suite] -->

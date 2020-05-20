@@ -28,8 +28,13 @@ public class ProductPage extends TestBase {
 	@FindBy(className="qty-input")
 	public WebElement quantityTBox;
 	
-	@FindBy(id="add-to-cart-button-36")
-	public WebElement addToCartbtn;
+	//@FindBy(xpath="//input[starts-with(@class,'button-1')]")
+	
+	//"//*[regexp:test(@id, 'sometext[0-9]+_text')]";
+	@FindBy(xpath="//*[starts-with(@id,'add-to-cart') and contains(@class,'button-1')]")
+	
+	//@FindBy(id="add-to-cart-button-36")
+	public WebElement addToCartBtn;
 	
 	
 	 public ProductPage(){
@@ -53,7 +58,7 @@ public class ProductPage extends TestBase {
 
 		  //priceValue=Double.valueOf(driver.findElement(By.xpath("//span[contains(@itemprop,'price')]")).getText());
 		 webOperations.setText(quantityTBox, qtyValue);	
-		 webOperations.clickWebElement(addToCartbtn);
+		 webOperations.clickWebElement(addToCartBtn);
 	}
 	
 	

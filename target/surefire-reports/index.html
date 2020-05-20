@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Test_Automation_Suite">
-              <span class="suite-name border-passed">Test Automation Suite</span>
+              <span class="suite-name border-skipped">Test Automation Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">8 methods,   8 passed</span>
+                    <span class="method-stats">5 methods,  1 skipped,  4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Test_Automation_Suite" class="hide-methods skipped suite-Test_Automation_Suite"> (hide)</a> <!-- hide-methods skipped suite-Test_Automation_Suite -->
+                      <a href="#" panel-name="suite-Test_Automation_Suite" class="show-methods skipped suite-Test_Automation_Suite"> (show)</a> <!-- show-methods skipped suite-Test_Automation_Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Test_Automation_Suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation_Suite" title="org.seleniumjava.tests.ProductPageTest" hash-for-method="sortByFeature">sortByFeature</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Test_Automation_Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -108,26 +122,6 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Test_Automation_Suite" title="org.seleniumjava.tests.ProductPageTest" hash-for-method="selectSubProductAddToCart">selectSubProductAddToCart</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation_Suite" title="org.seleniumjava.tests.ProductPageTest" hash-for-method="sortByFeature(Price: High to Low)">sortByFeature(Price: High to Low)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation_Suite" title="org.seleniumjava.tests.ProductPageTest" hash-for-method="sortByFeature(Name: A to Z)">sortByFeature(Name: A to Z)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation_Suite" title="org.seleniumjava.tests.ProductPageTest" hash-for-method="sortByFeature(Price: Low to High)">sortByFeature(Price: Low to High)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation_Suite" title="org.seleniumjava.tests.ProductPageTest" hash-for-method="sortByFeature(Name: Z to A)">sortByFeature(Name: Z to A)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -152,32 +146,31 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Test_Automation_Suite" class="panel Test_Automation_Suite">
-          <div class="suite-Test_Automation_Suite-class-passed">
+          <div class="suite-Test_Automation_Suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">org.seleniumjava.tests.LoginTest</span>
+              <img src="skipped.png"/>
+              <span class="class-name">org.seleniumjava.tests.ProductPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="loginTest">
-                  </a> <!-- loginTest -->
-                  <span class="method-name">loginTest</span>
-                  <em>
-(Verify the login test)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyLoginPageTitleTest">
-                  </a> <!-- verifyLoginPageTitleTest -->
-                  <span class="method-name">verifyLoginPageTitleTest</span>
-                  <em>
-(Verify the login page title)                  </em>
+                  <a name="sortByFeature">
+                  </a> <!-- sortByFeature -->
+                  <span class="method-name">sortByFeature</span>
+                  <div class="stack-trace">java.lang.RuntimeException: java.lang.NullPointerException
+Caused by: java.lang.NullPointerException
+	at org.apache.poi.poifs.filesystem.FileMagic.prepareToCheckMagic(FileMagic.java:173)
+	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:224)
+	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:198)
+	at org.seleniumjava.utils.excelUtils.getExcelData(excelUtils.java:33)
+	at org.seleniumjava.tests.ProductPageTest.getSortByData(ProductPageTest.java:62)
+	... 25 more
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Test_Automation_Suite-class-passed -->
+          </div> <!-- suite-Test_Automation_Suite-class-skipped -->
           <div class="suite-Test_Automation_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -193,41 +186,31 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="sortByFeature(Price: High to Low)">
-                  </a> <!-- sortByFeature(Price: High to Low) -->
-                  <span class="method-name">sortByFeature</span>
-                  <span class="parameters">(Price: High to Low)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="sortByFeature(Name: A to Z)">
-                  </a> <!-- sortByFeature(Name: A to Z) -->
-                  <span class="method-name">sortByFeature</span>
-                  <span class="parameters">(Name: A to Z)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="sortByFeature(Price: Low to High)">
-                  </a> <!-- sortByFeature(Price: Low to High) -->
-                  <span class="method-name">sortByFeature</span>
-                  <span class="parameters">(Price: Low to High)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="sortByFeature(Name: Z to A)">
-                  </a> <!-- sortByFeature(Name: Z to A) -->
-                  <span class="method-name">sortByFeature</span>
-                  <span class="parameters">(Name: Z to A)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="verifyProducPageTitle">
                   </a> <!-- verifyProducPageTitle -->
                   <span class="method-name">verifyProducPageTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Automation_Suite-class-passed -->
+          <div class="suite-Test_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.seleniumjava.tests.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginPageTitleTest">
+                  </a> <!-- verifyLoginPageTitleTest -->
+                  <span class="method-name">verifyLoginPageTitleTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -242,12 +225,15 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Test Automation Suite&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;WebShopTest&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;org.seleniumjava.utils.TestNGListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;WebShop&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;org.seleniumjava.tests.LoginTest&quot;/&gt;
       &lt;class name=&quot;org.seleniumjava.tests.ProductPageTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- WebShopTest --&gt;
+  &lt;/test&gt; &lt;!-- WebShop --&gt;
 &lt;/suite&gt; &lt;!-- Test Automation Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -259,7 +245,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">WebShopTest (2 classes)</span>
+                <span class="test-name">WebShop (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -285,44 +271,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(8);
+data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'selectSubProductAddToCart')
+data.setCell(0, 1, 'verifyProducPageTitle')
 data.setCell(0, 2, 'org.seleniumjava.tests.ProductPageTest')
-data.setCell(0, 3, 7220);
+data.setCell(0, 3, 2590);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyProducPageTitle')
+data.setCell(1, 1, 'selectSubProductAddToCart')
 data.setCell(1, 2, 'org.seleniumjava.tests.ProductPageTest')
-data.setCell(1, 3, 2451);
+data.setCell(1, 3, 2354);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'verifyLoginPageTitleTest')
 data.setCell(2, 2, 'org.seleniumjava.tests.LoginTest')
-data.setCell(2, 3, 2063);
+data.setCell(2, 3, 2120);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'loginTest')
 data.setCell(3, 2, 'org.seleniumjava.tests.LoginTest')
-data.setCell(3, 3, 1250);
+data.setCell(3, 3, 1109);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'sortByFeature')
 data.setCell(4, 2, 'org.seleniumjava.tests.ProductPageTest')
-data.setCell(4, 3, 931);
-data.setCell(5, 0, 5)
-data.setCell(5, 1, 'sortByFeature')
-data.setCell(5, 2, 'org.seleniumjava.tests.ProductPageTest')
-data.setCell(5, 3, 905);
-data.setCell(6, 0, 6)
-data.setCell(6, 1, 'sortByFeature')
-data.setCell(6, 2, 'org.seleniumjava.tests.ProductPageTest')
-data.setCell(6, 3, 893);
-data.setCell(7, 0, 7)
-data.setCell(7, 1, 'sortByFeature')
-data.setCell(7, 2, 'org.seleniumjava.tests.ProductPageTest')
-data.setCell(7, 3, 852);
+data.setCell(4, 3, 0);
 window.suiteTableData['Test_Automation_Suite']= { tableData: data, tableDiv: 'times-div-Test_Automation_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 16 seconds</span>
+              <span class="suite-total-time">Total running time: 8 seconds</span>
               <div id="times-div-Test_Automation_Suite">
               </div> <!-- times-div-Test_Automation_Suite -->
             </div> <!-- times-div -->
@@ -334,66 +308,43 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">sortByFeature(Price: High to Low)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Trying to click on: [[ChromeDriver: chrome on WINDOWS (551f153685a26e9e594aaba51da99a87)] -> link text: Apparel & Shoes]</span>
-                <span class="reporter-method-output">Clicked on: [[ChromeDriver: chrome on WINDOWS (551f153685a26e9e594aaba51da99a87)] -> link text: Apparel & Shoes]</span>
-                <span class="reporter-method-output">Trying to click on: [[[[ChromeDriver: chrome on WINDOWS (551f153685a26e9e594aaba51da99a87)] -> id: products-orderby]] -> xpath: .//option[normalize-space(.) = "Price: High to Low"]]</span>
-                <span class="reporter-method-output">Clicked on: [[[[ChromeDriver: chrome on WINDOWS (551f153685a26e9e594aaba51da99a87)] -> id: products-orderby]] -> xpath: .//option[normalize-space(.) = "Price: High to Low"]]</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
               <span class="reporter-method-name">verifyProducPageTitle</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Trying to click on: [[ChromeDriver: chrome on WINDOWS (4d0618170fcd2b9f86cec12ab1de9565)] -> link text: Apparel & Shoes]</span>
-                <span class="reporter-method-output">Clicked on: [[ChromeDriver: chrome on WINDOWS (4d0618170fcd2b9f86cec12ab1de9565)] -> link text: Apparel & Shoes]</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">sortByFeature(Name: A to Z)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Trying to click on: [[ChromeDriver: chrome on WINDOWS (80e3220f52b52af46673be0fe7affe80)] -> link text: Apparel & Shoes]</span>
-                <span class="reporter-method-output">Clicked on: [[ChromeDriver: chrome on WINDOWS (80e3220f52b52af46673be0fe7affe80)] -> link text: Apparel & Shoes]</span>
-                <span class="reporter-method-output">Trying to click on: [[[[ChromeDriver: chrome on WINDOWS (80e3220f52b52af46673be0fe7affe80)] -> id: products-orderby]] -> xpath: .//option[normalize-space(.) = "Name: A to Z"]]</span>
-                <span class="reporter-method-output">Clicked on: [[[[ChromeDriver: chrome on WINDOWS (80e3220f52b52af46673be0fe7affe80)] -> id: products-orderby]] -> xpath: .//option[normalize-space(.) = "Name: A to Z"]]</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">sortByFeature(Price: Low to High)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Trying to click on: [[ChromeDriver: chrome on WINDOWS (6313d0c3ba5f844dd3196cbfa7e459f5)] -> link text: Apparel & Shoes]</span>
-                <span class="reporter-method-output">Clicked on: [[ChromeDriver: chrome on WINDOWS (6313d0c3ba5f844dd3196cbfa7e459f5)] -> link text: Apparel & Shoes]</span>
-                <span class="reporter-method-output">Trying to click on: [[[[ChromeDriver: chrome on WINDOWS (6313d0c3ba5f844dd3196cbfa7e459f5)] -> id: products-orderby]] -> xpath: .//option[normalize-space(.) = "Price: Low to High"]]</span>
-                <span class="reporter-method-output">Clicked on: [[[[ChromeDriver: chrome on WINDOWS (6313d0c3ba5f844dd3196cbfa7e459f5)] -> id: products-orderby]] -> xpath: .//option[normalize-space(.) = "Price: Low to High"]]</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">sortByFeature(Name: Z to A)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Trying to click on: [[ChromeDriver: chrome on WINDOWS (d5f5b9a6643239850d0688d05a00c03f)] -> link text: Apparel & Shoes]</span>
-                <span class="reporter-method-output">Clicked on: [[ChromeDriver: chrome on WINDOWS (d5f5b9a6643239850d0688d05a00c03f)] -> link text: Apparel & Shoes]</span>
-                <span class="reporter-method-output">Trying to click on: [[[[ChromeDriver: chrome on WINDOWS (d5f5b9a6643239850d0688d05a00c03f)] -> id: products-orderby]] -> xpath: .//option[normalize-space(.) = "Name: Z to A"]]</span>
-                <span class="reporter-method-output">Clicked on: [[[[ChromeDriver: chrome on WINDOWS (d5f5b9a6643239850d0688d05a00c03f)] -> id: products-orderby]] -> xpath: .//option[normalize-space(.) = "Name: Z to A"]]</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">selectSubProductAddToCart</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Trying to click on: [[ChromeDriver: chrome on WINDOWS (70a7fe050de4bf0b5c0c4d988e174869)] -> link text: Apparel & Shoes]</span>
-                <span class="reporter-method-output">Clicked on: [[ChromeDriver: chrome on WINDOWS (70a7fe050de4bf0b5c0c4d988e174869)] -> link text: Apparel & Shoes]</span>
-                <span class="reporter-method-output">Trying to click on: [[ChromeDriver: chrome on WINDOWS (70a7fe050de4bf0b5c0c4d988e174869)] -> link text: Blue Jeans]</span>
-                <span class="reporter-method-output">Clicked on: [[ChromeDriver: chrome on WINDOWS (70a7fe050de4bf0b5c0c4d988e174869)] -> link text: Blue Jeans]</span>
-                <span class="reporter-method-output">Trying to click on: [[ChromeDriver: chrome on WINDOWS (70a7fe050de4bf0b5c0c4d988e174869)] -> id: add-to-cart-button-36]</span>
-                <span class="reporter-method-output">Clicked on: [[ChromeDriver: chrome on WINDOWS (70a7fe050de4bf0b5c0c4d988e174869)] -> id: add-to-cart-button-36]</span>
+                <span class="reporter-method-output">Test Case verifyProducPageTitlehas Started</span>
+                <span class="reporter-method-output">Trying to click on: [[ChromeDriver: chrome on WINDOWS (428c848766ce04a0430abbac822aec5f)] -> link text: Apparel & Shoes]</span>
+                <span class="reporter-method-output">Clicked on: [[ChromeDriver: chrome on WINDOWS (428c848766ce04a0430abbac822aec5f)] -> link text: Apparel & Shoes]</span>
+                <span class="reporter-method-output">Test Case verifyProducPageTitleis Passed</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
               <span class="reporter-method-name">loginTest</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Trying to click on: [[ChromeDriver: chrome on WINDOWS (4919097c48adfe7cac6cf82fcb7a960f)] -> class name: ico-login]</span>
-                <span class="reporter-method-output">Clicked on: [[ChromeDriver: chrome on WINDOWS (4919097c48adfe7cac6cf82fcb7a960f)] -> class name: ico-login]</span>
-                <span class="reporter-method-output">Trying to click on: [[ChromeDriver: chrome on WINDOWS (4919097c48adfe7cac6cf82fcb7a960f)] -> xpath: //input[contains(@class,'login-button')]]</span>
-                <span class="reporter-method-output">Clicked on: [[ChromeDriver: chrome on WINDOWS (4919097c48adfe7cac6cf82fcb7a960f)] -> xpath: //input[contains(@class,'login-button')]]</span>
+                <span class="reporter-method-output">Test Case loginTesthas Started</span>
+                <span class="reporter-method-output">Trying to click on: [[ChromeDriver: chrome on WINDOWS (9a2b7b69fa034571ecca243f17e17636)] -> class name: ico-login]</span>
+                <span class="reporter-method-output">Clicked on: [[ChromeDriver: chrome on WINDOWS (9a2b7b69fa034571ecca243f17e17636)] -> class name: ico-login]</span>
+                <span class="reporter-method-output">Trying to click on: [[ChromeDriver: chrome on WINDOWS (9a2b7b69fa034571ecca243f17e17636)] -> xpath: //input[contains(@class,'login-button')]]</span>
+                <span class="reporter-method-output">Clicked on: [[ChromeDriver: chrome on WINDOWS (9a2b7b69fa034571ecca243f17e17636)] -> xpath: //input[contains(@class,'login-button')]]</span>
+                <span class="reporter-method-output">Test Case loginTestis Passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">selectSubProductAddToCart</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case selectSubProductAddToCarthas Started</span>
+                <span class="reporter-method-output">Trying to click on: [[ChromeDriver: chrome on WINDOWS (a9efb1701a2cf4e4e4c7257591aa0333)] -> link text: Apparel & Shoes]</span>
+                <span class="reporter-method-output">Clicked on: [[ChromeDriver: chrome on WINDOWS (a9efb1701a2cf4e4e4c7257591aa0333)] -> link text: Apparel & Shoes]</span>
+                <span class="reporter-method-output">Trying to click on: [[ChromeDriver: chrome on WINDOWS (a9efb1701a2cf4e4e4c7257591aa0333)] -> link text: Blue Jeans]</span>
+                <span class="reporter-method-output">Clicked on: [[ChromeDriver: chrome on WINDOWS (a9efb1701a2cf4e4e4c7257591aa0333)] -> link text: Blue Jeans]</span>
+                <span class="reporter-method-output">Trying to click on: [[ChromeDriver: chrome on WINDOWS (a9efb1701a2cf4e4e4c7257591aa0333)] -> xpath: //*[starts-with(@id,'add-to-cart') and contains(@class,'button-1')]]</span>
+                <span class="reporter-method-output">Clicked on: [[ChromeDriver: chrome on WINDOWS (a9efb1701a2cf4e4e4c7257591aa0333)] -> xpath: //*[starts-with(@id,'add-to-cart') and contains(@class,'button-1')]]</span>
+                <span class="reporter-method-output">Test Case selectSubProductAddToCartis Passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyLoginPageTitleTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case verifyLoginPageTitleTesthas Started</span>
+                <span class="reporter-method-output">Test Case verifyLoginPageTitleTestis Passed</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -418,104 +369,50 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyLoginPageTitleTest</span>
-                <span class="method-start">9942 ms</span>
+                <span class="method-start">10414 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">12018 ms</span>
+                <span class="method-start">12544 ms</span>
               </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">org.seleniumjava.tests.ProductPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">13078 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyProducPageTitle</span>
-                <span class="method-start">25514 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">27971 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">org.seleniumjava.tests.LoginTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">30593 ms</span>
+                <span class="method-start">13213 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginTest</span>
-                <span class="method-start">39783 ms</span>
+                <span class="method-start">22648 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">41036 ms</span>
+                <span class="method-start">23760 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">org.seleniumjava.tests.ProductPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">42344 ms</span>
+                <span class="method-start">24418 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">sortByFeature(Name: A to Z)</span>
-                <span class="method-start">52745 ms</span>
+                <span class="method-name">verifyProducPageTitle</span>
+                <span class="method-start">35430 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">53677 ms</span>
+                <span class="method-start">38027 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">56313 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">sortByFeature(Name: Z to A)</span>
-                <span class="method-start">66808 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">67703 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">70320 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">sortByFeature(Price: Low to High)</span>
-                <span class="method-start">80808 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">81662 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">84756 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">sortByFeature(Price: High to Low)</span>
-                <span class="method-start">95131 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">96038 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">98647 ms</span>
+                <span class="method-start">40736 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">selectSubProductAddToCart</span>
-                <span class="method-start">109086 ms</span>
+                <span class="method-start">51403 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">116307 ms</span>
+                <span class="method-start">53766 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

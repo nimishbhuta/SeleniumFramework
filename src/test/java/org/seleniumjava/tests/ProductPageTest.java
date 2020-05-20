@@ -9,37 +9,34 @@ import org.seleniumjava.pages.LoginPage;
 import org.seleniumjava.pages.ProductPage;
 import org.seleniumjava.utils.excelUtils;
 import org.testng.Assert;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 
 public class ProductPageTest extends TestBase {
 	
-	ProductPage productPage;
-	LoginPage loginPage;
-	HomePage homePage;
+	
 	
 	public ProductPageTest(){
 		super();
 	}
 	
-	 @BeforeMethod 
+	 @BeforeMethod(alwaysRun=true)
 	 
 	 public void setUp() {
 		 	
 		 	initialization();
-		 	loginPage=new LoginPage();
-		 	homePage=new HomePage();
-		 	homePage.loginLink.click();
-		 	homePage=loginPage.login(prop.getProperty("email"), prop.getProperty("password"));
-		 	
-		 	
+		 	homePage=loginPage.login(prop.getProperty("email"), prop.getProperty("password"));	
 	 }
 	 
 	
-	  @Test(priority=1)
+	  @Test(priority=3)
 	  public void verifyProducPageTitle() throws InterruptedException {
 		productPage=homePage.navigateToProductPage("Apparel & Shoes");  
 		Thread.sleep(2000);  
@@ -71,24 +68,25 @@ public class ProductPageTest extends TestBase {
 	  
 	  
 
-	@Test(priority=2,dataProvider="getSortByData")
+	@Test(priority=4,dataProvider="getSortByData")
 	  public void sortByFeature(String sorting) {
 		productPage=homePage.navigateToProductPage("Apparel & Shoes");
 		productPage.sortByText(sorting);
 	  }
 	  
-	  @Test(priority=3)
+	  @Test(priority=5)
 	  public void selectSubProductAddToCart() {
+		// homePage=new HomePage();
 		 productPage=homePage.navigateToProductPage("Apparel & Shoes");
 		 productPage.navigateSubProductName("Blue Jeans");
 		 productPage.addToCart("25");	  
 	  }
 	  
-	  @AfterMethod
+	  @AfterMethod(alwaysRun=true)
 	  public void tearDown() throws InterruptedException{	  
 		 driver.quit();
 		 Thread.sleep(2000);
-		  }
+		 }
 		  
   
 }

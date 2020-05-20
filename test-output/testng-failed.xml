@@ -1,24 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Test Automation Suite]" parallel="methods">
-  <test name="WebShopTest(failed)" parallel="methods">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="org.seleniumjava.tests.LoginTest">
+      <class name="org.seleniumjava.testscenarios.TS_ShoppingCost">
         <methods>
-          <include name="verifyLoginPageTitleTest"/>
-          <include name="setUp"/>
-          <include name="loginTest"/>
+          <include name="testInitialize"/>
           <include name="tearDown"/>
+          <include name="CheckOutCart"/>
+          <include name="selectAndAddToCart"/>
         </methods>
-      </class> <!-- org.seleniumjava.tests.LoginTest -->
-      <class name="org.seleniumjava.tests.ProductPageTest">
-        <methods>
-          <include name="selectSubProductAddToCart"/>
-          <include name="verifyProducPageTitle"/>
-          <include name="sortByFeature"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- org.seleniumjava.tests.ProductPageTest -->
+      </class> <!-- org.seleniumjava.testscenarios.TS_ShoppingCost -->
     </classes>
-  </test> <!-- WebShopTest(failed) -->
-</suite> <!-- Failed suite [Test Automation Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

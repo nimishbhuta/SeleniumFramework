@@ -11,9 +11,14 @@ import org.seleniumjava.pages.ProductPage;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+
+import com.beust.jcommander.Parameter;
+
 import io.qameta.allure.Description;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
@@ -23,10 +28,8 @@ import  org.apache.log4j.Logger;
 
 public class LoginTest extends TestBase {
 
-	LoginPage loginPage;
-	//ProductPage productPage;
-	HomePage homePage;
-	Logger log = LogManager.getLogger(LoginTest.class);
+
+
 			 
 
 	public LoginTest(){
@@ -35,25 +38,25 @@ public class LoginTest extends TestBase {
 	}
 	
 	
+	
+	
 	 
- @BeforeMethod 
+ @BeforeMethod(alwaysRun=true)
  
  public void setUp() {
 	 	
 	 	initialization();
-	 	loginPage=new LoginPage();
 	 	BasicConfigurator.configure();
-	 	  
+	 	log.info("*************Initialization*****************");  
  }
  
-	
-  @Test(priority=1,description="Verify the login page title")
+ 
+  @Test(priority=1)
   @Severity(SeverityLevel.NORMAL)
   @Description("Verify the login page title test")
   @Story("Story Name:- To check the page title of login page")
   //Check the login page title
   public void verifyLoginPageTitleTest() throws InterruptedException {
-	  
 	  
 	  log.info("*************Starting the Login Test- Test Case verifyLoginPageTitle*****************");
 	  Thread.sleep(2000); 
@@ -64,21 +67,19 @@ public class LoginTest extends TestBase {
      log.info("*************Ending the Login Test - Test Case verifyLoginPageTitl*****************");
   }
   
-  @Test(priority=2,description="Verify the login test")
+  @Test(priority=2)
   @Severity(SeverityLevel.BLOCKER)
   @Description("Verify the login test")
   @Story("Story Name:- To check whether the user is able to login")
   public void loginTest() {
-	  
+	 //loginPage=new LoginPage();
 	 log.info("*************Starting the Login Test*****************");  
-	 homePage =new HomePage();
-	 homePage.loginLink.click();
 	 homePage=loginPage.login(prop.getProperty("email"), prop.getProperty("password"));
 	 log.info("*************End the Login Test - Test Case loginTest*****************");
 	 
   }
   
-  @AfterMethod
+  @AfterMethod(alwaysRun=true)
   
   public void tearDown(){
 	  

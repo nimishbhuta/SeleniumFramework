@@ -18,6 +18,9 @@ public class LoginPage extends TestBase {
 	@FindBy(xpath="//input[contains(@class,'login-button')]")
 	public WebElement  loginBtn;
 	
+	@FindBy(className="ico-login")
+    public WebElement loginLink;
+	
 	public LoginPage(){
 		
 		PageFactory.initElements(driver,this);
@@ -33,6 +36,7 @@ public class LoginPage extends TestBase {
 	@Step("login with username : {0} and password: {1}...."  )
 	
 	public HomePage login(String emailID,String password){
+		loginLink.click();
 		emailTBox.sendKeys(emailID);
 		passwordTBox.sendKeys(password);
 		loginBtn.click();

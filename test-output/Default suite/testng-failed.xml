@@ -3,13 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="org.seleniumjava.tests.ProductPageTest">
+      <class name="org.seleniumjava.testscenarios.TS_ShoppingCost">
         <methods>
-          <include name="sortByFeature" invocation-numbers="0 1 2 3"/>
+          <include name="testInitialize"/>
           <include name="tearDown"/>
-          <include name="setUp"/>
+          <include name="CheckOutCart"/>
+          <include name="selectAndAddToCart"/>
         </methods>
-      </class> <!-- org.seleniumjava.tests.ProductPageTest -->
+      </class> <!-- org.seleniumjava.testscenarios.TS_ShoppingCost -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
